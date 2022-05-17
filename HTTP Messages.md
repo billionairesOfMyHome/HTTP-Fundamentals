@@ -36,3 +36,44 @@
 
 再次请求时，输入上述的 Host，得到了需要的资源
 
+
+
+## required header for get requests
+
+For get requests, you typically don't see a body. You just see the start line and then one or more headers. And I keep saying one or more, because, remember, **the host header is a required header**.
+
+
+
+## 常见的请求头
+
+<img src="img\request_headers.png" style="zoom:50%;" />
+
+
+
+## 响应状态码
+
+<img src="img\response_status_codes.png" style="zoom:40%;" />
+
+<img src="img\response_status_code.png" style="zoom:50%;" />
+
+
+
+# HTTP Methods
+
+
+
+常用的就前面两个：
+
+<img src="img\request_methods.png" style="zoom:35%;" />
+
+## GET Method
+
+GET 是安全的 method，它不会带来改变，只请求资源
+
+它可能附带在 URL 上，URL Scheme://Host**:**Port**/**URL Path**?q=food&color=green**
+
+
+
+## POST Method
+
+POST 不是安全的 method
