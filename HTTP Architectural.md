@@ -20,22 +20,22 @@ reverse proxy 反向代理是一种代理服务器，它离服务器比离客户
 
 ### 负载均衡
 
-![](img\reverse_proxy.png)
+<img src="img\reverse_proxy.png"  />
 
 
 
 ### 优化静态资源的请求
 
-![](img\reverse_proxy2.png)
+<img src="img\reverse_proxy2.png" style="zoom:80%;" />
 
 
 
 ### 过滤潜在的攻击请求
 
-![](img\reverse_proxy3.png)
+<img src="img\reverse_proxy3.png" style="zoom:80%;" />
 
 
 
 ### 缓存代理
 
-![](img\reverse_proxy4.png)
+<img src="img\reverse_proxy4.png" style="zoom:80%;" />
