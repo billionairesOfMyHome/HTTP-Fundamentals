@@ -2,7 +2,11 @@
 
 
 
-> URL Scheme**://**Host**:**Port**/**URL Path**#**Fragment**?**q**=**food**&**color**=**green
+> URL Scheme**://**Host**:**Port**/**URL Path**?**q**=**food**&**color**=**green**#**Fragment
+
+
+
+注意 #Fragment 只能放最后，也就是查询参数的后面，否则放查询参数前面，查询参数会被认为是 Fragment 的一部分，就被服务器忽略掉
 
 
 
