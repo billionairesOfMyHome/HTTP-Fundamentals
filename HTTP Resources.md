@@ -93,6 +93,7 @@ Query 以键值对出现，& 分隔，API 可以之前从 URL 拿到查询参数
 | 扩展名         | 文档类型                                                     | MIME 类型                       |
 | :------------- | :----------------------------------------------------------- | :------------------------------ |
 | `.json`        | JSON format                                                  | `application/json`              |
+| 纯文本         | 没有语法，通常会加 ;charset=utf-8                            | `text/plain;charset=utf-8`      |
 | `.css`         | Cascading Style Sheets (CSS)                                 | `text/css`                      |
 | `.csv`         | Comma-separated values (CSV)                                 | `text/csv`                      |
 | `.htm.html`    | HyperText Markup Language (HTML)                             | `text/html`                     |
